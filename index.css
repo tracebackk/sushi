@@ -107,6 +107,8 @@ header button {
 main {
 	width: 90%;
 	margin: 0 auto;
+	display: grid;
+	gap: 10rem;
 }
 
 .hero {
@@ -239,3 +241,57 @@ main {
 	border-bottom-left-radius: 35px;
 	z-index: 2;
 }
+.categories{
+	display: flex;
+	justify-content: center;
+	font-family: "Inter", sans-serif;
+	text-align: center;
+}
+.favourites{
+	color: #F63B3B;
+	font-size: 22px;
+	font-weight: bold;
+}
+.categories-child{
+	font-size: 60px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.special-dishes-txt{
+	font-size: 22px;
+	font-weight: bold;
+	color: #F63B3B;
+}
+.food-categories{
+	display: flex;
+	gap: 30px;
+}
+.category{
+	background-color: white;
+	box-shadow: 7px 35px 51px rgba(0, 0, 0, 0.14);
+	width: 326px;
+	height: 326px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+	border-radius: 40px;
+
+
+}
+.main-dish{
+	background-color:#C1F1C6;
+	border-radius: 50%;
+}
+.main-dish > img{
+	width: 134.6px;
+	height: 118px;
+}
+.main-dish-txt{
+	color: #1E1E1E;
+	font-size: 25px;
+	font-weight: bold;
+}
+
